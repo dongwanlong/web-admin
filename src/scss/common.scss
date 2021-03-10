@@ -1,0 +1,44 @@
+//布局
+.f{
+    display: flex;
+}
+.fh{
+    display: flex;
+    flex-direction: column;
+}
+.f-full{
+    flex:1;
+}
+.fj-start{
+    justify-content: flex-start;
+}
+.fj-center{
+    justify-content: center;
+}
+.fj-end{
+    justify-content: flex-end;
+}
+.fj-around{
+    justify-content: space-around;
+}
+.fj-between{
+    justify-content: space-between;
+}
+.fa-start{
+    align-items: flex-start;
+}
+.fa-center{
+    align-items: center;
+}
+.fa-end{
+    align-items: flex-end;
+}
+.fa-baseline{
+    align-items: baseline;
+}
+.fa-stretch{
+    align-items: stretch;
+}
+.f-wrap{
+    flex-wrap:wrap;
+}
